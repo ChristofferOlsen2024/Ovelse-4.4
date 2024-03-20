@@ -1,12 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Vil du have ananas på din pizza?");
+Console.WriteLine("Hvad koster varen");
 
-string svar = Console.ReadLine();
+double pris = Convert.ToDouble(Console.ReadLine());
 
-if (svar == "ja")
+if (pris < 10)
 {
-    Console.WriteLine("Det skal du få.");
-} if else (svar == "nej")
+    Console.WriteLine("Det er billigt");
+} else if (svar > 100)
 {
-    Console.WriteLine("Okay det får du ik så.");
+    Console.WriteLine("Det er dyrt");
+} else
+{
+    Console.WriteLine("Prisen er okay");
 }
