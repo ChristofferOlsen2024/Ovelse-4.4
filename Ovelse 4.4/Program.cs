@@ -6,7 +6,7 @@ double pris = Convert.ToDouble(Console.ReadLine());
 if (pris < 10)
 {
     Console.WriteLine("Det er billigt");
-} else if (svar > 100)
+} else if (pris > 100)
 {
     Console.WriteLine("Det er dyrt");
 } else
